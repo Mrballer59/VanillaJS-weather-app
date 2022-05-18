@@ -114,20 +114,7 @@ function showWeatherData(data) {
             </div>
             
             `;
-    } else {
-      otherDayForcast += `
-            <div class="weather-forecast-item">
-                <div class="day">${window
-                  .moment(day.dt * 1000)
-                  .format("ddd")}</div>
-                <img src="http://openweathermap.org/img/wn/${
-                  day.weather[0].icon
-                }@2x.png" alt="weather icon" class="w-icon">
-                <div class="temp">Night - ${day.temp.night}&#176;C</div>
-                <div class="temp">Day - ${day.temp.day}&#176;C</div>
-            </div>
-            
-            `;
+      Testing; //this is a branch test
     }
   });
 
