@@ -134,3 +134,4 @@ function showWeatherData(data) {
   weatherForecastEl.innerHTML = otherDayForcast;
 }
 // need to fix deploy problem
+//photo does't look amazing in responsive
